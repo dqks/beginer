@@ -40,7 +40,7 @@ border-radius: 10px;
  cursor: pointer
 }
 
-.footer2 {
+#footer2 {
 font-size: 40px ;
 background-color: darkgrey;
 text-align: center;
@@ -84,11 +84,18 @@ button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
-/*#image { 
+#image {
+    display: flex;
     cursor: pointer;
-    position: absolute; 
-    top: 0px; 
-    left: 0px; 
-    transition: all 1s;
+    position:relative;
+    /*top: 0px; 
+    left: 0px; */
+    transition: all 0s;
   }
-  */
+  
+  .presshere {
+      display: flex;
+      position: fixed;
+      top: 350px;
+      left: 310px;
+  }
