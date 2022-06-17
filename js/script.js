@@ -62,3 +62,5 @@ const krim = ['Ukraina'];
 krim[0] = "Nash";  
 
 
+var numbers = require ('fs').readFileSync("oge.txt", "utf8").split("\n").splice(1).map(item=> Number(item))
+console.log(numbers)
