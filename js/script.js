@@ -2,11 +2,19 @@ const overflowFuck = document.querySelector('.overflowFuck')
 const image = document.querySelector('#image')
 const button = document.querySelector('#goFuckButton')
 const press = document.querySelector('.presshere')
+const order = document.querySelector('.toorder')
+const h1 = document.querySelector('h1')
+const vk = document.querySelector('.vk')
+const yt = document.querySelector('.youtube')
 button.onclick = function() {
     console.log('пошел нахуй');
    overflowFuck.style.display = 'flex'
    image.style.display = 'none'
-   press.style.display = 'none';
+   press.style.display = 'none'
+   order.style.display = 'none';
+   h1.style.display = 'none';
+   vk.style.display = 'none';
+   yt.style.display = 'none';
 };
 
 var object = document.getElementById('image');
@@ -61,6 +69,3 @@ vegetables[0] = 'Dolboeb';
 const krim = ['Ukraina'];
 krim[0] = "Nash";  
 
-
-var numbers = require ('fs').readFileSync("oge.txt", "utf8").split("\n").splice(1).map(item=> Number(item))
-console.log(numbers)
